@@ -1,0 +1,83 @@
+# Minecraft server files
+server/data/logs/
+server/data/crash-reports/
+server/data/banned-ips.json
+server/data/banned-players.json
+server/data/ops.json
+server/data/usercache.json
+server/data/whitelist.json
+server/data/world/
+server/data/backups/
+server/data/libraries/
+server/data/mods/
+
+# Mod files - we track these through our scripts rather than directly
+client_pack/mods/
+server/
+OLD/
+scripts/mod_cache/
+
+# Zip archives (generated mod packs)
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+env/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.vs/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Logs
+*.log
+*.log.gz
+
+# Minecraft client files
+options.txt
+usercache.json
+usernamecache.json
+config/
+logs/
+
+# Other files that should not be committed
+*.jar.disabled
+*.backup
+*.bak
+*.tmp
+*.temp

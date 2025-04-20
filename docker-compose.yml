@@ -1,0 +1,41 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      VERSION: "1.21.5"
+      FABRIC_VERSION: "0.16.13"
+      OPS: "mrathbone"
+      MEMORY: "4G"
+      REMOVE_MODS_LIST: "c2me-opts-natives-math"
+      DIFFICULTY: "normal"
+      MODE: "survival"
+      MOTD: "Adventure Minecraft Modpack Server"
+      OVERRIDE_SERVER_PROPERTIES: "true"
+      SPAWN_PROTECTION: "0"
+      MAX_TICK_TIME: "60000"
+      VIEW_DISTANCE: "12"
+      LEVEL_TYPE: "default"
+      ENABLE_COMMAND_BLOCK: "true"
+      DEBUG: "true"
+      COPY_MODS_ON_STARTUP: "true"
+      INIT_MEMORY: "1G"
+      PRE_INIT_SCRIPT: >
+        mkdir -p /data/mods && 
+        cp -f /data/mods/BiomeSpreader-1.5.0+mc1.21.5.jar "/data/mods/BiomeSpreader-1.5.0 mc1.21.5.jar" || true
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      - ./server/data:/data
+    container_name: adventure_minecraft
+    
+  watchtower:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 86400 --cleanup
+    restart: unless-stopped
