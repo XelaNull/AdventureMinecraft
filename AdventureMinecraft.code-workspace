@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "AdventureMinecraft",
+			"path": "."
+		},
+		{
+			"name": "Minecraft-Modded",
+			"path": "../Minecraft-Modded"
+		}
+	],
+	"settings": {}
+}

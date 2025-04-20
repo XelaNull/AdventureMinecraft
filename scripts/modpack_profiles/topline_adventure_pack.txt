@@ -1,0 +1,144 @@
+# Adventure Minecraft - Topline Adventure Pack 1.21.5
+# This file contains a premium extended set of adventure mods that work well together
+#
+# Mod Categories:
+# [server] - Server-side only mods
+# [client] - Client-side only mods
+# [shared] - Mods needed on both server and client
+
+# --- Core Mods (from enhanced_adventure_pack.txt) ---
+# Include all mods from enhanced_adventure_pack.txt as the base
+
+# --- Additional Dungeons & Exploration ---
+[shared] dungeons+-1.9.0b.jar                          # Brand new vanilla dungeons with biome specific designs
+[shared] RoguelikeDungeons-1.21.5-fabric.jar           # Roguelike dungeons for exploration
+[shared] blade-dungeons-1.21.5-fabric.jar              # Blade's dungeons with more variety
+[shared] underground-villages-1.21.5-fabric.jar        # Adds villages underground to explore
+[shared] choicetheorems-overhauled-village-1.21.5-fabric.jar # Completely overhauls villages with more variety
+# Waiting for appropriate versions of these mods:
+# [shared] dungeons-and-taverns-swamp-hut-overhaul
+# [shared] dungeons-and-taverns-woodland-mansion-replacement
+[shared] abandoned-mod1.21-1.21.4.jar                  # Adds several abandoned structures to explore
+[shared] sparsestructures-fabric-1.21.5-3.0.jar        # Makes structures rarer and more rewarding to find
+[shared] adorabuild-structures-1.21.5-fabric.jar       # Adds over 100 new structures to explore
+[shared] tectonic-1.21.5-fabric.jar                    # World generation enhancement
+[shared] terralith-1.21.5-fabric.jar                   # Enhances terrain generation
+[shared] better-birch-forest-1.21.5-fabric.jar         # Improves birch forest biomes
+
+# --- Enhanced Quest System ---
+# [shared] player-stat-progression - not available yet for 1.21.5
+[shared] vr_typewriter_daycounter_v1.jar               # Adds RPG-like day counter with typewriter effect
+[shared] game-clock-1.21.5-fabric.jar                  # Shows in-game time with improved display
+[shared] hey-wiki-1.21.5-fabric.jar                    # Quick access to wiki information
+
+# --- Items & Equipment ---
+[shared] Loyal Items 1.0.2.jar                         # Items never despawn after death, waiting for your return
+[shared] youritemsaresafe-1.21.5-4.7.jar               # Spawns a chest with your items on death
+[shared] itemswapper-fabric-0.7.8.1-mc1.21.5.jar       # Convenient inventory hotswapping
+[shared] head_in_the_clouds-1.4.0+1.21.5.jar           # Allows placing any item on your head
+[shared] AxesAreWeapons-1.9.4-fabric-1.21.5.jar        # Makes axes proper weapons with looting and more
+[shared] weaponmod-fabric-1.21.5-1.23.2.jar            # Adds spears, halberds, muskets and more weapons
+[shared] more-weapon-variants-1.21.5-fabric.jar        # Additional weapon types and variants
+[shared] travelers-backpack-1.21.5-fabric.jar          # Backpacks for extra storage
+[shared] server-backpacks-1.21.5-fabric.jar            # Server-side backpack functionality
+[shared] armor-statues-1.21.5-fabric.jar               # Customize armor stands
+[shared] chain-armor-recipe-1.21.5-fabric.jar          # Adds craftable chain armor recipes
+[shared] glass-carpet-1.21.5-fabric.jar                # Transparent carpets made of glass
+[shared] usefulfood-reborn-1.21.5-fabric.jar           # Adds useful food items
+[shared] sensible-stackables-1.21.5-fabric.jar         # Improves item stacking limits
+[shared] bake-your-bread-1.21.5-fabric.jar             # Enhanced bread baking system
+
+# --- Pet Companions ---
+[shared] followersteleporttoo-1.21.5-2.7.jar           # Pets teleport with you when using commands
+[shared] respawnablepets-1.21.5-r1.jar                 # Allows pets to respawn after death
+[shared] indypets-1.4.7-1.21.5.jar                     # Lets pets roam instead of having to sit
+[shared] undying-pets-atlasplays-1.7.0.jar             # Give pets totems of undying to keep them safe
+[shared] brokenleadwarner-1.2.0+1.21.x.jar             # Warning for broken leads
+[shared] cat_jam-fabric-mc1.21.2-1.3.1.jar             # Makes cats jam to the rhythm of music discs
+[shared] cats_on_head-1.0.1-1.21.5.jar                 # Allows you to put cats on your head
+[shared] stretch-leash-1.21.5-fabric.jar               # Allows for longer leashes
+[shared] animal-feeding-trough-1.21.5-fabric.jar       # Automates feeding animals
+[shared] pet-frogs-1.21.5-fabric.jar                   # Allows you to tame frogs
+[shared] horse-expert-1.21.5-fabric.jar                # Shows horse stats and improvements
+[shared] animal-garden-owl-1.21.5-fabric.jar           # Adds owls to the game
+[shared] animal-garden-meerkat-1.21.5-fabric.jar       # Adds meerkats to the game
+[shared] nemos-creatures-1.21.5-fabric.jar             # Adds new creatures to the game
+[shared] care-to-share-1.21.5-fabric.jar               # Makes taking care of animals easier
+
+# --- Quality of Life ---
+[client] catvision-fabric-1.21.5-1.0.0.jar             # Provides night vision without being an operator
+[shared] items-timer-v1.6-mod.jar                      # Displays timer until items despawn
+[client] Jade-1.21.5-Fabric-18.1.0.jar                 # Shows information about the block you're looking at
+[shared] easy-anvils-1.21.5-fabric.jar                 # Makes anvils easier and cheaper to use
+[client] better-block-tooltip-1.21.5-fabric.jar        # Enhanced tooltips for blocks
+[client] appleskin-1.21.5-fabric.jar                   # Shows food saturation and hunger info
+[client] mouse-tweaks-1.21.5-fabric.jar                # Improves mouse interactions with inventory
+[client] inventory-sorting-1.21.5-fabric.jar           # Sort items in inventory
+[client] status-effect-timer-1.21.5-fabric.jar         # Shows remaining time for status effects
+[client] improved-signs-1.21.5-fabric.jar              # Enhances sign editing and display
+[client] sign-edit-lite-1.21.5-fabric.jar              # Edit existing signs
+[client] mob-health-bar-indicators-1.21.5-fabric.jar   # Shows health bars above mobs
+[client] frostbyte-improved-inventory-1.21.5-fabric.jar # UI improvements for inventory
+[client] immersive-hot-bar-1.21.5-fabric.jar           # Better hotbar visualization
+[client] partial-hearts-1.21.5-fabric.jar              # Shows partial heart values
+[client] oneclickcrafting-1.21.5-fabric.jar            # Craft items with a single click
+[client] craft-sense-1.21.5-fabric.jar                 # Shows what you can craft with held items
+[client] auto-run-1.21.5-fabric.jar                    # Enables auto-running
+[client] auto-warden-subtitles-1.21.5-fabric.jar       # Automatically shows subtitles for Warden
+[client] resourcify-1.21.5-fabric.jar                  # Resource pack manager
+[client] block-runner-1.21.5-fabric.jar                # Improves running on various blocks
+
+# --- Visual Enhancements ---
+[client] iris-fabric-1.8.11+mc1.21.5.jar               # Shader pack support for improved graphics
+[client] notenoughanimations-fabric-1.9.3-mc1.21.5.jar # Adds more animations to player actions
+[client] skinlayers3d-fabric-1.7.5-mc1.21.5.jar        # 3D layers for player skins
+[client] bedrockify-1.21.5-fabric.jar                  # Adds Bedrock Edition features to Java
+[client] ambient-sounds-1.21.5-fabric.jar              # Enhanced environmental sounds
+[client] visual-workbench-1.21.5-fabric.jar            # Visual crafting indicators
+[client] better-clouds-1.21.5-fabric.jar               # Improves cloud rendering
+[client] particle-rain-1.21.5-fabric.jar               # Enhanced rain particles
+[client] serene-seasons-1.21.5-fabric.jar              # Adds seasonal changes to the world
+[client] subtle-effects-1.21.5-fabric.jar              # Makes effects more subtle
+[client] particle-effects-1.21.5-fabric.jar            # Enhanced particle effects
+[client] particle-interactions-1.21.5-fabric.jar       # Particles interact with the environment
+[client] tipthescales-1.21.5-fabric.jar                # UI scaling improvements
+[client] hdskins-1.21.5-fabric.jar                     # High definition player skins
+[client] invariable-paintings-1.21.5-fabric.jar        # Custom paintings
+[client] macaws-paintings-1.21.5-fabric.jar            # More painting varieties
+[client] windchime-1.21.5-fabric.jar                   # Adds windchimes with sound
+
+# --- Furniture & Decoration ---
+[shared] polydecorations-0.7.2+1.21.5.jar              # Adds various decorative items
+[shared] Tom-server-additions-furniture-1.21.5-fabric.jar # Server-friendly furniture
+[shared] nemos-farming-1.21.5-fabric.jar               # Enhanced farming decorations
+[shared] goop-1.21.5-fabric.jar                        # Slime-like decorative blocks
+[shared] self-care-hive-1.21.5-fabric.jar              # Bee-themed decorations
+
+# --- World Map ---
+[client] XaerosWorldMap_1.39.5_Fabric_1.21.5.jar       # Full world map for exploration
+[client] Xaeros_Minimap_25.2.0_Fabric_1.21.5.jar       # Minimap for local navigation
+
+# --- Gameplay Mechanics ---
+[shared] regenerative-sleep-1.21.5-fabric.jar          # Enhanced healing while sleeping
+[shared] seasonal-lets-do-1.21.5-fabric.jar            # Season-based activities
+[shared] jagm-kiwi-1.21.5-fabric.jar                   # Kiwi fruit mechanics
+[shared] harvest-xp-1.21.5-fabric.jar                  # Get XP from harvesting crops
+
+# --- Dependencies ---
+[shared] midnightlib-1.7.1-fabric+1.21.4.jar           # Required dependency for several mods
+[shared] strawberrylib-1.21.5-r3.jar                   # Required for pet mods
+[shared] fconfiglib-1.1.1.jar                          # Required for some mods
+[shared] lithostitched-fabric-1.21.5-1.4.6.jar         # Required dependency
+
+# --- Notes ---
+# This expanded pack focuses on enhancing the adventure experience with:
+# 1. More varied and rewarding dungeons
+# 2. Better pet mechanics and interactions
+# 3. Item protection and management
+# 4. Additional weapons and equipment
+# 5. RPG-style progression systems
+# 6. Quality of life improvements
+# 7. Visual enhancements and immersion
+
+# To download these mods, run:
+# python scripts/download_mods.py --profile --profile-name topline_adventure_pack.txt 
